@@ -1,0 +1,51 @@
+# ─── Environment & Secrets (DO NOT COMMIT) ──────────────────────────────
+.env
+.env.local
+.env.production
+*.key
+*.pem
+*.cert
+
+# ─── Python ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.whl
+venv/
+.venv/
+env/
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ─── Node / Frontend ────────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/build/
+*.tsbuildinfo
+.next/
+.nuxt/
+
+# ─── IDE & Editors ────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ─── Project-specific ────────────────────────────────────────────────────
+# Ignore personal report files but keep README.md and .env.example tracked
+202330452541_*.md
+
+# ─── Logs & Temp ──────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+*.sqlite3
